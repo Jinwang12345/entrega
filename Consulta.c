@@ -64,7 +64,7 @@ printf ("JUGADOR: %s\n", row[0], ID);
 // obtenemos la siguiente fila
 row = mysql_fetch_row (resultado);
 }
-// Ahora vamos a buscar el nombre de la persona cuyo JUGADOR es uno
+// Ahora vamos a buscar el nombsre de la persona cuyo JUGADOR es uno
 // dado por el usuario
 printf ("Dame el nombre del jugador que quieres buscar\n");
 scanf ("%s", JUGADOR);
